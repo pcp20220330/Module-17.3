@@ -1,0 +1,39 @@
+body {
+    height: 1vh;
+    font-size: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: lightgrey;
+    border-bottom: 1px solid black;
+}
+
+nav div {
+    display: inline-block;
+    padding: 25px 20px;
+    width: 75px;
+    background-color: #555;
+    margin-left: -5px;
+    color: white;
+}
+
+nav div:hover {
+    background-color: aqua;
+    color:black;
+}
+
+.left {
+    width: 29%;
+    background-color: blue;
+    height: 100vh;
+    float: left;
+}
+
+.right {
+    width: 70%;
+    background-color: teal;
+    height: 100vh;
+    float: left;
+}
